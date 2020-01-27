@@ -9,19 +9,17 @@
 <body>
     <div class="wapper">
         <header class="header">
-            <div class="header-logo">
-                <a href="#" class="logo">
-                    <img src="" alt="Company Logo">
-                </a>
-            </div>
-            <div class="header-contacts">
-                <div class="header-contacts__phone">
-                    <a href="tel:88000039210" class="phone">8(800)00-392-10</a>
+            <div class="container">
+                <div class="logo">
+                    <a href="#" class="logo__link">
+                        <img src="" alt="Company Logo" class="logo__image">
+                    </a>
                 </div>
-                <div class="header-contacts__opentime">
-                    <a href="#" class="opentime">Время работы</a>
-                </div>
-            </div>
+                <div class="contacts">
+                    <a href="tel:88000039210" class="contacts__phone">8(800)00-392-10</a>
+                    <a href="#" class="contacts__opentime">Время работы</a>
+                </div> 
+            </div>     
         </header>
 
         <div class="container">
@@ -34,8 +32,8 @@
                     <div class="plans__title">
                         <h2>Тарифы</h2>
                     </div>
-                    <div class="plan__descriptions">
-                        <ul class="plans-list">
+                    <div class="plans__descriptions">
+                        <ul class="plans__list">
                             <li class="plan">
                                 <img src="#" alt="Plan's logo" class="plan__logo">
                                 <h3 class="plan__name">СТАНДАРТ</h3>
@@ -48,8 +46,8 @@
                                     <li>Детское кресло</li>
                                 </ul>
                                 <div class="price">
-                                    <span class="currency">$</span>
-                                    <span class="number">19</span>
+                                    <span class="price__currency">$</span>
+                                    <span class="price__number">19</span>
                                 </div>
                             </li><li class="plan">
                                 <img src="#" alt="Plan's logo" class="plan__logo">
@@ -63,8 +61,8 @@
                                     <li>Детское кресло</li>
                                 </ul>
                                 <div class="price">
-                                    <span class="currency">$</span>
-                                    <span class="number">39</span>
+                                    <span class="price__currency">$</span>
+                                    <span class="price__number">39</span>
                                 </div>
                             </li><li class="plan">
                                 <img src="#" alt="Plan's logo" class="plan__logo">
@@ -78,8 +76,8 @@
                                     <li>Детское кресло</li>
                                 </ul>
                                 <div class="price">
-                                    <span class="currency">$</span>
-                                    <span class="number">99</span>
+                                    <span class="price__currency">$</span>
+                                    <span class="price__number">99</span>
                                 </div>
                             </li>
                         </ul>   
@@ -90,29 +88,29 @@
                     <div class="news__title">
                         <h2>Последние новости</h2>
                     </div>
-                    <ul class="newsfeed">
-                        <li class="newsblock">
+                    <ul class="news__feed newsblock">
+                        <li class="newsblock__item">
                             <div class="newsblock__banner">
                                 <img src="#" alt="news image" class="newsblock__image">
                             </div>
                             <data class="newsblock__data">12.10.2016</data>
-                            <h4 class="newsblock-title">Ночные перелеты дешевле</h4>
+                            <h4 class="newsblock__title">Ночные перелеты дешевле</h4>
                             <p class="newsblock__context">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, porro omnis sunt perferendis doloribus tenetur quis eius corrupti rerum harum delectus eum cumque adipisci ipsam explicabo possimus suscipit maxime sed!</p>
                         </li>
-                        <li class="newsblock">
+                        <li class="newsblock__item">
                             <div class="newsblock__banner">
                                 <img src="#" alt="news image" class="newsblock__image">
                             </div>
                             <data class="newsblock__data">01.02.2016</data>
-                            <h4 class="newsblock-title">Путешествие в Грузию стало доступнее</h4>
+                            <h4 class="newsblock__title">Путешествие в Грузию стало доступнее</h4>
                             <p class="newsblock__context">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, porro omnis sunt perferendis doloribus tenetur quis eius corrupti rerum harum delectus eum cumque adipisci ipsam explicabo possimus suscipit maxime sed!</p>
                         </li>
-                        <li class="newsblock">
+                        <li class="newsblock__item">
                             <div class="newsblock__banner">
                                 <img src="#" alt="news image" class="newsblock__image">
                             </div>
                             <data class="newsblock__data">22.12.2016</data>
-                            <h4 class="newsblock-title">Детские билеты доступны для бизнес-класса</h4>
+                            <h4 class="newsblock__title">Детские билеты доступны для бизнес-класса</h4>
                             <p class="newsblock__context">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, porro omnis sunt perferendis doloribus tenetur quis eius corrupti rerum harum delectus eum cumque adipisci ipsam explicabo possimus suscipit maxime sed!</p>
                         </li>
 
@@ -179,44 +177,46 @@
         </div>
 
         <footer class="footer">
-            <div class="copyright">
-                <p class="copyright">
-                    Сделано с любовью и старанием на курсе «HTML + CSS» 
-                    в <a href="#">Loftschool</a>
-                    Автор работы:<strong>Прохладов Вадим</strong>
-                </p>
-            </div>
-            <div class="footer-logo">
-                <a href="#" class="logo">
-                    <img src="" alt="Company Logo">
-                </a>
-            </div>
-            <div class="socials">
-                <div class="socials__title">
-                    Наши социальные сети
+            <div class="container">
+                <div class="footer__copyright">
+                    <p class="copyright">
+                        Сделано с любовью и старанием на курсе «HTML + CSS» 
+                        в <a href="#">Loftschool</a>
+                        Автор работы:<strong>Прохладов Вадим</strong>
+                    </p>
                 </div>
-                <ul class="socials-list">
-                    <li class="socials-list__item">
-                        <a href="#" class="socials-link">
-                            <img src="#" alt="VK Icon" class="socials__icon">
-                        </a>
-                    </li>
-                    <li class="socials-list__item">
-                        <a href="#" class="socials-link">
-                            <img src="#" alt="Facebook" class="socials__icon">
-                        </a>
-                    </li>
-                    <li class="socials-list__item">
-                        <a href="#" class="socials-link">
-                            <img src="#" alt="Twitter" class="socials__icon">
-                        </a>
-                    </li>
-                    <li class="socials-list__item">
-                        <a href="#" class="socials-link">
-                            <img src="#" alt="Mail" class="socials__icon">
-                        </a>
-                    </li>
-                </ul>
+                <div class="footer__logo">
+                    <a href="#" class="logo">
+                        <img src="" alt="Company Logo" class="logo__image">
+                    </a>
+                </div>
+                <div class="socials">
+                    <div class="socials__title">
+                        Наши социальные сети
+                    </div>
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a href="#" class="social__link">
+                                <img src="#" alt="VK Icon" class="socials__icon">
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <img src="#" alt="Facebook" class="socials__icon">
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <img src="#" alt="Twitter" class="socials__icon">
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link">
+                                <img src="#" alt="Mail" class="socials__icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </footer>
