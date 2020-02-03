@@ -249,8 +249,10 @@ data {
     color: black;
 }
 .pagination__item--active {
-    color: #ffffff;
     background-color: #5972b1;
+}
+.pagination__item--active .pagination__link {
+    color: #ffffff;
 }
 .pagination__item:hover {
     background-color: #a6b2d1;
