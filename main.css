@@ -280,6 +280,9 @@ data {
     margin-top: 50px;
     padding-right: 0px;
 }
+.menu__list :last-child {
+    margin-bottom: 0px;
+}
 .menu__link {
     font-weight: 700;
     font-size: 12px;
@@ -317,8 +320,15 @@ data {
 .menu__item--active>.menu__link {
     color: #262424;
 }
-
-
+.menu__item--active .menu__link--main:before {
+    background-image: url(./main_icon.png);
+}
+.menu__item--active .menu__link--reviews:before {
+    background-image: url(./feed_icon_black.png);
+}
+.menu__item--active .menu__link--team:before {
+    background-image: url(./team_icon_black.png);
+}
 
 
 /*footer*/
