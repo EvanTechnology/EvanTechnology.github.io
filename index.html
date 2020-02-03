@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <link href="main.css" rel="stylesheet">
     <title>Week 1</title>
 </head>
 <body>
-    <div class="wapper">
+    <div class="wrapper">
         <header class="header">
-            <div class="container">
-                <div class="logo">
+            <div class="container header__container">
+                <div class="header__logo">
                     <a href="#" class="logo__link">
-                        <img src="" alt="Company Logo" class="logo__image">
+                        <img src="./logo.png" alt="Company Logo" class="logo__image">
                     </a>
                 </div>
                 <div class="contacts">
@@ -22,10 +24,33 @@
             </div>     
         </header>
 
-        <div class="container">
+        <main class="container">
+            <div class="sidebar">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li
+                         class="menu__item">
+                            <a href="#" class="menu__link menu__link--main menu__link--active">
+                                Главная
+                            </a>
+                        </li
+                        ><li class="menu__item">
+                            <a href="#" class="menu__link menu__link--reviews">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link menu__link--team">
+                                Экипаж
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
             <div class="content">
                 <div class="banner">
-                   <img src="#" alt="Banner image" class="banner__image"> 
+                   <img src="./main_image.png" alt="Banner image" class="banner__image"> 
                 </div>
 
                 <div class="plans">
@@ -35,10 +60,12 @@
                     <div class="plans__descriptions">
                         <ul class="plans__list">
                             <li class="plan">
-                                <img src="#" alt="Plan's logo" class="plan__logo">
+                                <div class="plan__image">
+                                    <img src="./flower.png" alt="Plan's logo" class="plan__logo">
+                                </div>
                                 <h3 class="plan__name">СТАНДАРТ</h3>
                                 <p class="plan__slogan">
-                                    СОЗДАН ДЛЯ ВАШЕГО КОМФОРТНОГО ОТДЫХА
+                                    Создан для Вашего комфортного отдыха
                                 </p>
                                 <ul class="plan__description">
                                     <li>Питание включено</li>
@@ -49,11 +76,14 @@
                                     <span class="price__currency">$</span>
                                     <span class="price__number">19</span>
                                 </div>
-                            </li><li class="plan">
-                                <img src="#" alt="Plan's logo" class="plan__logo">
+                            </li>
+                            <li class="plan plan--active">
+                                <div class="plan__image">
+                                    <img src="./star.png" alt="Plan's logo" class="plan__logo">
+                                </div>
                                 <h3 class="plan__name">ПРЕМИУМ</h3>
                                 <p class="plan__slogan">
-                                    ДЛЯ ЛЮБИТЕЛЕЙ ХОРОШИХ ВПЕЧАТЛЕНИЙ
+                                    Для любителей хороших впечатлений
                                 </p>
                                 <ul class="plan__description">
                                     <li>Питание включено</li>
@@ -64,11 +94,14 @@
                                     <span class="price__currency">$</span>
                                     <span class="price__number">39</span>
                                 </div>
-                            </li><li class="plan">
-                                <img src="#" alt="Plan's logo" class="plan__logo">
+                            </li>
+                            <li class="plan">
+                                <div class="plan__image">
+                                    <img src="./painter-palette.png" alt="Plan's logo" class="plan__logo">
+                                </div>
                                 <h3 class="plan__name">ЛАКШЕРИ</h3>
                                 <p class="plan__slogan">
-                                    ВСЕ САМОЕ ЛУЧШЕЕ И НЕЗАБЫВАЕМОЕ
+                                    Все самое лучшее и незабываемое
                                 </p>
                                 <ul class="plan__description">
                                     <li>Питание включено</li>
@@ -90,28 +123,34 @@
                     </div>
                     <ul class="news__feed newsblock">
                         <li class="newsblock__item">
-                            <div class="newsblock__banner">
-                                <img src="#" alt="news image" class="newsblock__image">
+                            <div class="newsblock__cover">
+                                <img src="./photo1.png" alt="news image" class="newsblock__image">
                             </div>
-                            <data class="newsblock__data">12.10.2016</data>
-                            <h4 class="newsblock__title">Ночные перелеты дешевле</h4>
-                            <p class="newsblock__context">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, porro omnis sunt perferendis doloribus tenetur quis eius corrupti rerum harum delectus eum cumque adipisci ipsam explicabo possimus suscipit maxime sed!</p>
+                            <div class="newsblock__content">
+                                <data class="newsblock__data">12.10.2016</data>
+                                <h4 class="newsblock__title">Ночные перелеты дешевле</h4>
+                                <p class="newsblock__text">Летящий в ночном небе самолет — зрелище загадочное и романтическое. Крылатая машина величественно плывет в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми, спешащими далеко-далеко по очень важным делам. </p>
+                            </div>
                         </li>
                         <li class="newsblock__item">
-                            <div class="newsblock__banner">
-                                <img src="#" alt="news image" class="newsblock__image">
+                            <div class="newsblock__cover">
+                                <img src="./photo2.png" alt="news image" class="newsblock__image">
                             </div>
-                            <data class="newsblock__data">01.02.2016</data>
-                            <h4 class="newsblock__title">Путешествие в Грузию стало доступнее</h4>
-                            <p class="newsblock__context">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, porro omnis sunt perferendis doloribus tenetur quis eius corrupti rerum harum delectus eum cumque adipisci ipsam explicabo possimus suscipit maxime sed!</p>
+                            <div class="newsblock__content">
+                                <data class="newsblock__data">01.02.2016</data>
+                                <h4 class="newsblock__title">Путешествие в Грузию стало доступнее</h4>
+                                <p class="newsblock__text">Экскурсии по Грузии в 2017 году от русских гидов: самые интересные маршруты в Грузии от профессиональных гидов. Обзорные, пешеходные, автомобильные, тематические экскурсии по интересным городам и курортам Грузии. Не пропустите такую возможность!</p>
+                            </div>
                         </li>
                         <li class="newsblock__item">
-                            <div class="newsblock__banner">
-                                <img src="#" alt="news image" class="newsblock__image">
+                            <div class="newsblock__cover">
+                                <img src="./photo3.png" alt="news image" class="newsblock__image">
                             </div>
-                            <data class="newsblock__data">22.12.2016</data>
-                            <h4 class="newsblock__title">Детские билеты доступны для бизнес-класса</h4>
-                            <p class="newsblock__context">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, porro omnis sunt perferendis doloribus tenetur quis eius corrupti rerum harum delectus eum cumque adipisci ipsam explicabo possimus suscipit maxime sed!</p>
+                            <div class="newsblock__content">
+                                <data class="newsblock__data">22.12.2016</data>
+                                <h4 class="newsblock__title">Детские билеты доступны для бизнес-класса</h4>
+                                <p class="newsblock__text">Путешествие на самолете с детьми - небольшое испытание для родителей. Но это не экстремальное приключение, а обычный цивилизованный поход. Тем более, различные авиакомпании стараются помочь скидками на детские авиабилеты, специальным питанием и другими услугами на борту лайнера.</p>
+                            </div>
                         </li>
 
                     </ul>
@@ -120,9 +159,11 @@
                             Страница <span class="page-number">1</span> из 7
                         </div>
                         <div class="pagination__control">
-                            <a href="#" class="pagination__left"><</a>
                             <ul class="pagination__items">
                                 <li class="pagination__item">
+                                    <a href="#" class="pagination__left"><</a>
+                                </li>
+                                <li class="pagination__item pagination__item--active">
                                     <a href="#" class="pagination__link">1</a>
                                 </li>
                                 <li class="pagination__item">
@@ -143,51 +184,28 @@
                                 <li class="pagination__item">
                                     <a href="#" class="pagination__link">7</a>
                                 </li>
+                                <li class="pagination__item">
+                                    <a href="#" class="pagination__right">></a>
+                                </li>
                             </ul>
-                            <a href="#" class="pagination__right">></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="sidebar">
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li
-                         class="menu__item">
-                            <a href="#" class="menu__link">
-                                <img src="" alt="menu icon" class="menu__icon">
-                                <div class="menu__title">Главная</div>
-                            </a>
-                        </li
-                        ><li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <img src="" alt="menu icon" class="menu__icon">
-                                <div class="menu__title">Отзывы</div>
-                            </a>
-                        </li><li class="menu__item">
-                            <a href="#" class="menu__link">
-                                <img src="" alt="menu icon" class="menu__icon">
-                                <div class="menu__title">Экипаж</div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-
-            </div>
-        </div>
+        </main>
 
         <footer class="footer">
             <div class="container">
                 <div class="footer__copyright">
                     <p class="copyright">
                         Сделано с любовью и старанием на курсе «HTML + CSS» 
-                        в <a href="#">Loftschool</a>
+                        в <a href="#" class="loftschool__link">Loftschool</a>
                         Автор работы:<strong>Прохладов Вадим</strong>
                     </p>
                 </div>
                 <div class="footer__logo">
                     <a href="#" class="logo">
-                        <img src="" alt="Company Logo" class="logo__image">
+                        <img src="./logo.png" alt="Company Logo" class="logo__image logo__footer">
                     </a>
                 </div>
                 <div class="socials">
@@ -197,22 +215,22 @@
                     <ul class="socials__list">
                         <li class="socials__item">
                             <a href="#" class="social__link">
-                                <img src="#" alt="VK Icon" class="socials__icon">
+                                <img src="./vk.png" alt="VK Icon" class="socials__icon">
                             </a>
                         </li>
                         <li class="socials__item">
                             <a href="#" class="socials__link">
-                                <img src="#" alt="Facebook" class="socials__icon">
+                                <img src="./fb.png" alt="Facebook" class="socials__icon">
                             </a>
                         </li>
                         <li class="socials__item">
                             <a href="#" class="socials__link">
-                                <img src="#" alt="Twitter" class="socials__icon">
+                                <img src="./twitter.png" alt="Twitter" class="socials__icon">
                             </a>
                         </li>
                         <li class="socials__item">
                             <a href="#" class="socials__link">
-                                <img src="#" alt="Mail" class="socials__icon">
+                                <img src="./mail.png" alt="Mail" class="socials__icon">
                             </a>
                         </li>
                     </ul>
