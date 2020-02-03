@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
     <title>Week 1</title>
 </head>
@@ -28,13 +28,12 @@
             <div class="sidebar">
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li
-                         class="menu__item">
-                            <a href="#" class="menu__link menu__link--main menu__link--active">
+                        <li class="menu__item menu__item--active">
+                            <a href="#" class="menu__link menu__link--main">
                                 Главная
                             </a>
-                        </li
-                        ><li class="menu__item">
+                        </li>
+                        <li class="menu__item">
                             <a href="#" class="menu__link menu__link--reviews">
                                 Отзывы
                             </a>
@@ -68,9 +67,9 @@
                                     Создан для Вашего комфортного отдыха
                                 </p>
                                 <ul class="plan__description">
-                                    <li>Питание включено</li>
-                                    <li>Багаж (5кг)</li>
-                                    <li>Детское кресло</li>
+                                    <li class="plan__perks">Питание включено</li>
+                                    <li class="plan__perks">Багаж (5кг)</li>                                                                                                                                                              
+                                    <li class="plan__perks">Детское кресло</li>
                                 </ul>
                                 <div class="price">
                                     <span class="price__currency">$</span>
@@ -86,9 +85,9 @@
                                     Для любителей хороших впечатлений
                                 </p>
                                 <ul class="plan__description">
-                                    <li>Питание включено</li>
-                                    <li>Багаж (5кг)</li>
-                                    <li>Детское кресло</li>
+                                    <li class="plan__perks">Питание включено</li>
+                                    <li class="plan__perks">Багаж (5кг)</li>
+                                    <li class="plan__perks">Детское кресло</li>
                                 </ul>
                                 <div class="price">
                                     <span class="price__currency">$</span>
@@ -104,9 +103,9 @@
                                     Все самое лучшее и незабываемое
                                 </p>
                                 <ul class="plan__description">
-                                    <li>Питание включено</li>
-                                    <li>Багаж (5кг)</li>
-                                    <li>Детское кресло</li>
+                                    <li class="plan__perks">Питание включено</li>
+                                    <li class="plan__perks">Багаж (5кг)</li>
+                                    <li class="plan__perks">Детское кресло</li>
                                 </ul>
                                 <div class="price">
                                     <span class="price__currency">$</span>
@@ -199,8 +198,8 @@
                 <div class="footer__copyright">
                     <p class="copyright">
                         Сделано с любовью и старанием на курсе «HTML + CSS» 
-                        в <a href="#" class="loftschool__link">Loftschool</a>
-                        Автор работы:<strong>Прохладов Вадим</strong>
+                        в <a href="#" class="loftschool">Loftschool</a>
+                        Автор работы:<span class="creator">Прохладов Вадим</span>
                     </p>
                 </div>
                 <div class="footer__logo">
