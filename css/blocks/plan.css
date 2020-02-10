@@ -1,0 +1,73 @@
+.plans {
+    margin-bottom: 40px;
+}
+.plans__list {
+    display: flex;
+}
+.plan__description, .plan__perks {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.plan {
+    width: 248px;
+    margin-right: 25px;
+    padding: 40px 35px 40px 25px;
+    vertical-align: top;
+    text-align: center;
+    line-height: 1.67;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid transparent;
+    border-radius: 2%;
+}
+.plan--active {
+    border: 1px solid #e8e8ec;
+}
+.plans__list :last-child {
+    margin-right: 0px;
+}
+.plan__name {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 4.68;
+}
+.plan__perks {
+    text-align: left;
+}
+.plan__perks:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #262424;
+}
+.plan__image {
+    background-color: #5972b1;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+}
+.plan__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.price {
+    color: #252525;
+    font-weight: bolder;
+}
+.price__number {
+    font-size: 54px;
+    line-height: 2;
+    font-family: "Roboto";
+}
+.price__currency {
+    font-size: 34px;
+}

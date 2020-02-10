@@ -1,0 +1,21 @@
+.contacts{
+    font-style: normal;
+    text-align: right;
+    padding: 5px;
+}
+.contacts__phone {
+    display: block;
+    color: inherit;
+    font-size: 21px;
+    font-weight: bold;
+}
+.contacts__opentime {
+    display: block;
+    color: inherit;
+    text-decoration: underline;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.contacts__opentime:hover {
+    opacity: 1;
+}

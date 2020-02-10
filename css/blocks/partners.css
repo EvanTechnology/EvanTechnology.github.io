@@ -1,0 +1,28 @@
+.partners {
+    margin-bottom: 90px;
+}
+.partners__title {
+    font-size: 49px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 42px;
+}
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.partners__item {
+    width: 33%;
+}
+.partners__logo {
+    margin: auto;
+    max-width: 160px;
+    padding: 15px 0px;
+}
+.partners__image {
+    filter: grayscale(1);
+}
+.partners__image:hover {
+    filter: none;
+}

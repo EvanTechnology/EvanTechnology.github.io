@@ -1,0 +1,12 @@
+.header__container {
+    min-height: 77px;
+    padding: 0px 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-color: #5973b1;
+    margin-bottom: 10px;
+}
