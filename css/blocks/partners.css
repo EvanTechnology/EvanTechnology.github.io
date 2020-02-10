@@ -11,9 +11,11 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
+    align-items: center;
 }
 .partners__item {
     width: 33%;
+    cursor: pointer;
 }
 .partners__logo {
     margin: auto;

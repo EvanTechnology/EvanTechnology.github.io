@@ -48,8 +48,16 @@
     position: relative;
     margin-bottom: 20px;
 }
-.profile__image {
+.profile__avatar:before {
+    content: "";
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #5972b1;
     opacity: 0.5;
+
 }
 .profile__avatar-name {
     font-size: 24px;

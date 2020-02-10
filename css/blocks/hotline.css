@@ -1,13 +1,13 @@
 .hotline {
     background-color: #76b46f;
     margin-bottom: 60px;
+    background-image: url(../../pattern.png);
 }
 .hotline__container {
     height: 170px;
     opacity: 0.75;
     display: flex;
     align-items: center;
-    background-image: url(../../pattern.png);
     padding: 0px 30px;
 }
 .hotline__info {
