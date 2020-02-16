@@ -1,26 +1,30 @@
 .partners {
-    margin-bottom: 90px;
+    margin-bottom: 40px;
+    border: solid 1px #f4f4f4;
+    border-radius: 3px;
 }
 .partners__title {
-    font-size: 49px;
+    font-size: 18px;
     font-weight: bold;
-    text-align: left;
-    margin-bottom: 42px;
+    text-align: center;
+    line-height: 2.11;
+    margin-bottom: 40px;
+    padding-top: 28px;
+    text-transform: uppercase;
 }
 .partners__list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: 0px;
     align-items: center;
 }
 .partners__item {
-    width: 33%;
     cursor: pointer;
 }
 .partners__logo {
     margin: auto;
     max-width: 160px;
-    padding: 25px 0px;
+    padding-bottom: 30px;
 }
 .partners__image {
     filter: grayscale(1);

@@ -1,20 +1,23 @@
 .hotline {
-    background-color: #76b46f;
+    background-color: #5973b1;
     margin-bottom: 60px;
     background-image: url(../../pattern.png);
 }
 .hotline__container {
-    height: 170px;
     opacity: 0.75;
-    display: flex;
     align-items: center;
-    padding: 0px 30px;
+    text-align: center;
+    padding: 30px 15px;
+    letter-spacing: normal;
+    line-height: 1.67;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
 }
 .hotline__info {
-    padding: 47px 222px 44px 200px;
     font-size: 18px;
-    color: #ffffff;
-    font-weight: lighter;
+    /*color: #ffffff;*/
+    /*font-weight: lighter;*/
 }
 .hotline__phone {
     font-weight: bolder;

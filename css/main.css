@@ -6,9 +6,9 @@
 @import url("./blocks/logo.css");
 @import url("./blocks/contacts.css");
 @import url("./blocks/page_content.css");
-@import url("./blocks/sidebar.css");
+@import url("./blocks/menu.css");
 @import url("./blocks/banner.css");
-@import url("./blocks/plan.css");
+@import url("./blocks/sidebar.css");
 @import url("./blocks/news.css");
 @import url("./blocks/pagination.css");
 @import url("./blocks/footer.css");
@@ -17,6 +17,7 @@
 @import url("./blocks/form.css");
 @import url("./blocks/crew.css");
 @import url("./blocks/partners.css");
+@import url("./blocks/intro.css");
 /*.content, .sidebar {
     display: inline-block;
     vertical-align: top;

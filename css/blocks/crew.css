@@ -5,17 +5,21 @@
     font-size: 49px;
     font-weight: bold;
     text-align: left;
+    padding-top: 20px;
+    margin-bottom: 40px;
 }
 .crew__list {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0px;
-    margin-left: -15px;
+    margin-left: -20px;
     margin-bottom: 0px;
 }
 .crew__item {
-    width: 33%;
-    padding: 25px;
+    width: 32%;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 40px;
 
 }
 .profile {
@@ -41,6 +45,7 @@
 .profile__text {
     width: 100%;
     text-align: center;
+    line-height: 1.5;
 }
 .profile__avatar {
     margin: auto;
