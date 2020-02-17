@@ -20,11 +20,11 @@
 }
 .partners__item {
     cursor: pointer;
+    padding-bottom: 30px;
 }
 .partners__logo {
     margin: auto;
     max-width: 160px;
-    padding-bottom: 30px;
 }
 .partners__image {
     filter: grayscale(1);
