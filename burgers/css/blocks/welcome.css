@@ -1,12 +1,12 @@
 @charset "UTF-8";
 .welcome-container {
-  background-image: url(/icons/video-bg.png);
+  background-image: url(icons/video-bg.png);
   border: 1px solid #ffffff;
 }
 
 .welcome-container:before {
   content: "";
-  background-image: url(/icons/texture.png);
+  background-image: url(icons/texture.png);
 }
 
 .header__container {
@@ -89,7 +89,7 @@
 
 .welcome__image {
   width: 450px;
-  background-image: url(/icons/drops.png);
+  background-image: url(icons/drops.png);
 }
 
 /*.welcome__burger :before {
